@@ -14,6 +14,9 @@
 		59847C781EE39CDB00BC732B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59847C761EE39CDB00BC732B /* LaunchScreen.storyboard */; };
 		59847C831EE39CDB00BC732B /* GitToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59847C821EE39CDB00BC732B /* GitToolTests.swift */; };
 		59847C8E1EE39CDB00BC732B /* GitToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59847C8D1EE39CDB00BC732B /* GitToolUITests.swift */; };
+		CCFC81D0C82A7A0BC048B14B /* Pods_GitToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB508C92C02A2EC3F2003259 /* Pods_GitToolTests.framework */; };
+		E24FC2A81F7445132C9A3157 /* Pods_GitTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF5D5B29662DFD1D8B4313F /* Pods_GitTool.framework */; };
+		EC03C2FF4746FA15458823B3 /* Pods_GitToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC07B2DCE68D079C268894D8 /* Pods_GitToolUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AF5D5B29662DFD1D8B4313F /* Pods_GitTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD254A162C88F2FA0BEC398 /* Pods-GitTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitTool/Pods-GitTool.debug.xcconfig"; sourceTree = "<group>"; };
 		59847C6A1EE39CDB00BC732B /* GitTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59847C6D1EE39CDB00BC732B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59847C6F1EE39CDB00BC732B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		59847C891EE39CDB00BC732B /* GitToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59847C8D1EE39CDB00BC732B /* GitToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitToolUITests.swift; sourceTree = "<group>"; };
 		59847C8F1EE39CDB00BC732B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BAB2D6CC0FCD90A1C3C6B5B /* Pods-GitTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitTool/Pods-GitTool.release.xcconfig"; sourceTree = "<group>"; };
+		7616D1774F91A97E07F02A70 /* Pods-GitToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitToolUITests/Pods-GitToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC024B8850C795D007B015BA /* Pods-GitToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitToolTests/Pods-GitToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB6FC0C76AF94A81F1C14D7B /* Pods-GitToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitToolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitToolTests/Pods-GitToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC07B2DCE68D079C268894D8 /* Pods_GitToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9E3B7678495F8CEEE0AF13 /* Pods-GitToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitToolUITests/Pods-GitToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB508C92C02A2EC3F2003259 /* Pods_GitToolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24FC2A81F7445132C9A3157 /* Pods_GitTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFC81D0C82A7A0BC048B14B /* Pods_GitToolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC03C2FF4746FA15458823B3 /* Pods_GitToolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C791BC7A9396DAA76C36166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF5D5B29662DFD1D8B4313F /* Pods_GitTool.framework */,
+				FB508C92C02A2EC3F2003259 /* Pods_GitToolTests.framework */,
+				DC07B2DCE68D079C268894D8 /* Pods_GitToolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A14F579D9AD0B85E4931226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CD254A162C88F2FA0BEC398 /* Pods-GitTool.debug.xcconfig */,
+				6BAB2D6CC0FCD90A1C3C6B5B /* Pods-GitTool.release.xcconfig */,
+				AC024B8850C795D007B015BA /* Pods-GitToolTests.debug.xcconfig */,
+				DB6FC0C76AF94A81F1C14D7B /* Pods-GitToolTests.release.xcconfig */,
+				ED9E3B7678495F8CEEE0AF13 /* Pods-GitToolUITests.debug.xcconfig */,
+				7616D1774F91A97E07F02A70 /* Pods-GitToolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		59847C611EE39CDA00BC732B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				59847C811EE39CDB00BC732B /* GitToolTests */,
 				59847C8C1EE39CDB00BC732B /* GitToolUITests */,
 				59847C6B1EE39CDB00BC732B /* Products */,
+				4A14F579D9AD0B85E4931226 /* Pods */,
+				2C791BC7A9396DAA76C36166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59847C921EE39CDB00BC732B /* Build configuration list for PBXNativeTarget "GitTool" */;
 			buildPhases = (
+				655E65356AEBBCE88D305F27 /* [CP] Check Pods Manifest.lock */,
 				59847C661EE39CDB00BC732B /* Sources */,
 				59847C671EE39CDB00BC732B /* Frameworks */,
 				59847C681EE39CDB00BC732B /* Resources */,
+				21BB58CC10E7AA756FA46656 /* [CP] Embed Pods Frameworks */,
+				380C5B96702CF756DA09ABE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59847C951EE39CDB00BC732B /* Build configuration list for PBXNativeTarget "GitToolTests" */;
 			buildPhases = (
+				AA14C9DBE18F4E124F49AEE4 /* [CP] Check Pods Manifest.lock */,
 				59847C7A1EE39CDB00BC732B /* Sources */,
 				59847C7B1EE39CDB00BC732B /* Frameworks */,
 				59847C7C1EE39CDB00BC732B /* Resources */,
+				9380DA51E53593B100AFA8C9 /* [CP] Embed Pods Frameworks */,
+				249545D061AA118A09084519 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59847C981EE39CDB00BC732B /* Build configuration list for PBXNativeTarget "GitToolUITests" */;
 			buildPhases = (
+				DB2264D315B3A2164BB67FFF /* [CP] Check Pods Manifest.lock */,
 				59847C851EE39CDB00BC732B /* Sources */,
 				59847C861EE39CDB00BC732B /* Frameworks */,
 				59847C871EE39CDB00BC732B /* Resources */,
+				87C64637FCE5377847E937E8 /* [CP] Embed Pods Frameworks */,
+				FCFEB389754EFA27729907FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21BB58CC10E7AA756FA46656 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitTool/Pods-GitTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		249545D061AA118A09084519 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitToolTests/Pods-GitToolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380C5B96702CF756DA09ABE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitTool/Pods-GitTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655E65356AEBBCE88D305F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87C64637FCE5377847E937E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitToolUITests/Pods-GitToolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9380DA51E53593B100AFA8C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitToolTests/Pods-GitToolTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA14C9DBE18F4E124F49AEE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2264D315B3A2164BB67FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCFEB389754EFA27729907FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitToolUITests/Pods-GitToolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59847C661EE39CDB00BC732B /* Sources */ = {
@@ -410,7 +597,9 @@
 		};
 		59847C931EE39CDB00BC732B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD254A162C88F2FA0BEC398 /* Pods-GitTool.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,7 +611,9 @@
 		};
 		59847C941EE39CDB00BC732B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAB2D6CC0FCD90A1C3C6B5B /* Pods-GitTool.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -434,8 +625,9 @@
 		};
 		59847C961EE39CDB00BC732B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC024B8850C795D007B015BA /* Pods-GitToolTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GitToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -448,8 +640,9 @@
 		};
 		59847C971EE39CDB00BC732B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6FC0C76AF94A81F1C14D7B /* Pods-GitToolTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GitToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -462,8 +655,9 @@
 		};
 		59847C991EE39CDB00BC732B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9E3B7678495F8CEEE0AF13 /* Pods-GitToolUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = GitToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugawar.GitToolUITests;
@@ -475,8 +669,9 @@
 		};
 		59847C9A1EE39CDB00BC732B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7616D1774F91A97E07F02A70 /* Pods-GitToolUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				INFOPLIST_FILE = GitToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugawar.GitToolUITests;
@@ -505,6 +700,7 @@
 				59847C941EE39CDB00BC732B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59847C951EE39CDB00BC732B /* Build configuration list for PBXNativeTarget "GitToolTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +709,7 @@
 				59847C971EE39CDB00BC732B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59847C981EE39CDB00BC732B /* Build configuration list for PBXNativeTarget "GitToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +718,7 @@
 				59847C9A1EE39CDB00BC732B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
