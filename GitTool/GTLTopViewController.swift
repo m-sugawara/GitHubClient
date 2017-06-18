@@ -79,7 +79,7 @@ class GTLTopViewController: ViewController, UITableViewDelegate {
         
         tableView.rx.modelSelected(Repository.self)
             .subscribe(onNext: { repository in
-                UIApplication.shared.openURL(repository.url)
+                UIApplication.shared.open(repository.url, options: [:], completionHandler: nil)
             })
             .disposed(by: disposeBag)
         
